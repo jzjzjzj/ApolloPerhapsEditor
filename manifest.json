@@ -1,0 +1,29 @@
+{
+  "name": "Apollo galvenais, iespējams, redaktors.",
+  "short_name": "Apollo Lēš",
+  "description": "Uzlabo www.apollo.lv ziņu portāla virsrakstus, tādējādi atslogojot Apollo virsrakstu, iespējams, redaktorus.",
+  "version": "0.1.0",
+  "icons": {
+    "16": "img/16.png",
+    "48": "img/48.png",
+    "128": "img/128.png"
+  },
+  "manifest_version": 2,
+  "content_scripts": [{
+    "exclude_globs": [],
+    "include_globs": [
+      "*"
+    ],
+    "js":[
+      "lib/jquery-2.1.0.min.js",
+      "src/editor.js",
+      "src/perhaps-editor.js",
+      "extension.js"
+    ],
+    "matches": [
+      "http://www.apollo.lv/*"
+    ],
+    "run_at": "document_end"
+  }],
+  "web_accessible_resources": ["lib/jquery-2.1.0.min.map", "img/apolol-header-lolgo.png"]
+}
