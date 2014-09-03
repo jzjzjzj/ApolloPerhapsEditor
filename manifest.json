@@ -2,7 +2,7 @@
   "name": "Apollo galvenais, iespējams, redaktors.",
   "short_name": "Apollo Lēš",
   "description": "Uzlabo www.apollo.lv ziņu portāla virsrakstus, tādējādi atslogojot Apollo virsrakstu, iespējams, redaktorus.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "icons": {
     "16": "img/16.png",
     "48": "img/48.png",
