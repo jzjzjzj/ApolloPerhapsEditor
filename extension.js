@@ -8,7 +8,7 @@ $(suspicious.toString()).text(function(i, suspiciousText) {
   return apolloEditor.improveText(suspiciousText);
 });
 
-$('#header-logo > a').css(
+$('#header-logo').css(
   'background-image',
   'url("' + chrome.extension.getURL('img/apolol-header-lolgo.png') + '")'
 );
