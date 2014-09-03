@@ -11,7 +11,12 @@ var PerhapsEditor = function() {
     'gandrīz',
     'gan jau',
     'puslīdz',
-    'daudzmaz'
+    'daudzmaz',
+    'pieņemsim',
+    'piemēram',
+    'manis pēc',
+    'plus, mīnus',
+    'aptuveni'
   ]);
 
   this.brain = /[^-,;:\.](\s)[^-0]/g;
