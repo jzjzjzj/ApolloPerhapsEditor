@@ -21,7 +21,7 @@
       "extension.js"
     ],
     "matches": [
-      "http://www.apollo.lv/*"
+      "http://apollo.tvnet.lv/*"
     ],
     "run_at": "document_end"
   }],
